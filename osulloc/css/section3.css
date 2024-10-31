@@ -1,0 +1,47 @@
+.sec3-4
+{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+
+    margin:auto;
+}
+
+
+/* ---- section 3 ---- */
+.sec3
+{
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+.ct3
+{
+    background: url(../img/main_banner/introduce_banner.jpg) no-repeat;
+    background-size: cover;
+    width: 35vw;
+    height: 18vw;
+
+    border-radius:10px;
+}
+
+.intro_text_box
+{
+    padding-left: 3vw;
+    padding-top:6vw;
+    width: 30vw;
+}
+
+.intro_text_box h2
+{
+    color: white;
+    font-weight: 100;
+    font-size: 1.4vw;
+}
+
+.intro_text_box h1
+{
+    color: white;
+    font-weight: 400;
+    font-size: 2vw;
+}

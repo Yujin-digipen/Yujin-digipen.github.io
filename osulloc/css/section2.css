@@ -1,0 +1,230 @@
+/* ---- section 2 ---- */
+
+@media (min-width: 319px) /*  가로가 319보다 큰 화면에 적용 */
+{
+            
+    .sec2_wrap
+    {
+        width: 75%;
+        margin: auto;
+    }
+
+    .section_name
+    {
+        font-size: 17px;
+        margin-bottom: 1vw;
+        margin-top: 2vw;
+        font-weight: bold;
+    }
+
+    .sec2
+    {
+        width:100%;
+        height: 30vw;
+
+        margin-bottom: 3vw;
+    }
+
+    .sec2 a
+    {
+        display: flex;
+        height: 30vw;
+    }
+
+    .ct2
+    {
+        display: flex;
+        height: 30vw;
+    }
+
+    .right_text_box
+    {
+        margin-left: 7vw;
+        width: 30vw;
+        height: 30vw;
+        margin-top: 4vw;
+    }
+
+    .right_text_box .sale_mar_name
+    {
+        font-size: 2.6vw;
+        margin-bottom: 0.8vw;
+    }
+
+    .right_text_box .price
+    {
+        font-size: 1.9vw;
+        text-decoration: line-through;
+        color:#a3a3a3; 
+    }  
+
+    .right_text_box .discounted
+    {
+        font-size: 2.7vw;
+        color:black;
+    } 
+
+    .right_text_box .discount_rate
+    {
+        margin-left: .5vw;
+        font-size: 2.1vw;
+        font-weight: bold;
+        color:rgb(218, 5, 5);
+    } 
+
+    .left_img_box
+    {
+        margin-top: 0.2vw;
+    }
+
+    .left_img_box img
+    {
+        position: absolute;
+        object-fit: cover;
+
+        z-index: -1;
+        left: 0px;
+
+        width: 100%;
+        height: 30vw;
+    }
+
+    .counter
+    {
+        margin-top: 0.8vw;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .counter .material-symbols-outlined
+    {
+        font-size: 2vw;
+        color:#2b2b2b;
+        font-weight: bold;
+
+        margin-top: .4vw;
+        margin-right: 1vw;
+    }
+
+    .timer
+    {
+        font-weight: bold;
+        font-size: 2vw;
+        color:#2b2b2b;
+    }
+}
+
+@media (min-width: 768px) /*  가로가 768보다 큰 화면에 적용 */
+{
+        
+    .sec2_wrap
+    {
+        width: 75%;
+        margin: auto;
+    }
+
+    .section_name
+    {
+        font-size: 1.7vw;
+        margin-bottom: 1vw;
+        font-weight: bold;
+    }
+
+    .sec2
+    {
+        width:100%;
+        height: 20vw;
+
+        margin-bottom: 3vw;
+    }
+
+    .sec2 a
+    {
+        display: flex;
+        height: 20vw;
+    }
+
+    .ct2
+    {
+        display: flex;
+        height: 20vw;
+    }
+
+    .right_text_box
+    {
+        margin-left: 7vw;
+        width: 30vw;
+        height: 20vw;
+        margin-top: 4vw;
+    }
+
+    .right_text_box .sale_mar_name
+    {
+        font-size:1.6vw;
+        margin-bottom: 0.8vw;
+    }
+
+    .right_text_box .price
+    {
+        font-size: 1.2vw;
+        text-decoration: line-through;
+        color:#a3a3a3; 
+    }  
+
+    .right_text_box .discounted
+    {
+        font-size: 2vw;
+        color:black;
+    } 
+
+    .right_text_box .discount_rate
+    {
+        margin-left: .5vw;
+        font-size: 1.8vw;
+        font-weight: bold;
+        color:rgb(218, 5, 5);
+    } 
+
+    .left_img_box
+    {
+        margin-top: 0.2vw;
+    }
+
+    .left_img_box img
+    {
+        position: absolute;
+        object-fit: cover;
+
+        z-index: -1;
+        left: 0px;
+
+        width: 100%;
+        height: 20vw;
+    }
+
+    .counter
+    {
+        margin-top: 0.8vw;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .counter .material-symbols-outlined
+    {
+        font-size: 2vw;
+        color:#2b2b2b;
+        font-weight: bold;
+
+        margin-top: .4vw;
+        margin-right: 1vw;
+    }
+
+    .timer
+    {
+        font-weight: bold;
+        font-size: 2vw;
+        color:#2b2b2b;
+    }
+}

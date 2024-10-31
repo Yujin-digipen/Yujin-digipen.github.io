@@ -1,0 +1,79 @@
+
+.wrap
+{
+    width: 96%;
+    margin: 0 auto;
+}
+
+header .wrap
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.background_image  .swiper
+{    
+    position: relative;
+}
+
+.logo
+{
+    padding-top: 1%;
+}
+
+.logo img
+{
+    width: 7vw;
+}
+
+nav
+{
+    color: white;
+    position: absolute;
+
+    left: 1%;
+    top: 3vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    z-index: 1;
+}
+
+nav a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5vw;
+
+    padding: 0 4vw;
+}
+
+
+.clickable a 
+{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 98vw;
+    height: 56.1vw;
+    z-index: 0;
+}
+
+
+.right_box /* 검색 버튼 */
+{
+    position: absolute;
+
+    right: 7vw;
+    top: 3.5vw;
+
+    z-index: 1;
+}
+
+.right_box .search a span
+{
+    font-size: 3vw;
+}
+
