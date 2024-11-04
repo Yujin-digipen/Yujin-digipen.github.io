@@ -1,6 +1,6 @@
    /* ----- section 1 ---- */
    
-   @media (min-width: 319px) /*  가로가 768보다 큰 화면에 적용 */
+   @media (min-width: 219px) /*  가로가 768보다 큰 화면에 적용 */
    {
      .sec1
      {
@@ -149,7 +149,7 @@
    .mar_name
    {
        font-weight: bold;
-       font-size: 9px;
+       font-size: 11px;
    }
 
    .price
@@ -162,14 +162,14 @@
    .discounted
    {
        font-weight: bold;
-       font-size: 9.5px; 
+       font-size: 10.5px; 
     }
 
    .discount_rate
    {
        font-weight: bold;
        color:#3e772f;
-       font-size: 9px;
+       font-size: 10px;
        margin-left: 4px;
    }
 
@@ -249,12 +249,12 @@
    .mar_name
    {
        font-weight: bold;
-       font-size: 12px;
+       font-size: 15px;
    }
 
    .price
    {
-       font-size: 9.5px;
+       font-size: 11.5px;
        text-decoration: line-through;
        color:#a3a3a3
    }
@@ -262,14 +262,14 @@
    .discounted
    {
        font-weight: bold;
-       font-size: 11.5px; 
+       font-size: 13.5px; 
     }
 
    .discount_rate
    {
        font-weight: bold;
        color:#3e772f;
-       font-size: 11px;
+       font-size: 13px;
        margin-left: 5px;
    }
 

@@ -28,12 +28,17 @@
 {
     margin-right: 1.3vw;
     font-size: 2vw;
-    color:black;
+    color:#3e772f;
 }
 
 .swiper-button-next:after
 {
     margin-left: 1.3vw;
     font-size: 2vw;
-    color:black;
+    color:#3e772f;
+}
+
+.swiper-scrollbar-drag
+{
+    background:#3e772f;
 }

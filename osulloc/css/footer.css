@@ -8,7 +8,7 @@
 
 footer
 {
-    height: 22vw;
+    height: 25vw;
     background: #f8f8f8;
     margin-top: 3vw;
 }
@@ -37,8 +37,9 @@ footer
 
 .inner_center_box
 {
+
     margin-left: 5vw;
-    padding: 0.8vw 0;
+    padding: 2.3vw 0;
 }
 
 .footer_menu
