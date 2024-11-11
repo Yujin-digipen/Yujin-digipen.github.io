@@ -19,6 +19,13 @@ video
     border-radius: 0 0 0 15vw;  /* ----- 좌측하단 모서리 둥글게 ----- */
 }
 
+#new_mv
+{
+    width: 30vw;
+    max-height: 100vh;
+    border-radius: 0vw;
+}
+
 .video-header
 {
     position: absolute;

@@ -1,0 +1,76 @@
+.new_wrap
+{
+    width: 65%;
+    margin: auto;
+}
+
+.new_banner
+{
+    padding-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.new_name
+{
+    text-align: center;
+    font-size: 27px;
+    padding-bottom: 3vw;
+    font-weight: 650;
+}
+
+.justify_box
+{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.text_box
+{
+    margin-left: 3vw;
+}
+
+.price_box
+{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.new_concept
+{
+    font-weight: 500;
+    font-size: 1.56vw;
+    margin: 1.8vw 0vw;
+}
+
+.text_box p
+{
+    font-weight: 500;
+    color:rgb(85, 82, 82);
+    margin-bottom: 0.8vw;
+}
+
+.new_count
+{
+    font-size: 1.1vw;
+    padding-top: 0.3vw;
+    margin-right: 1vw;
+}
+
+.new_price
+{
+    font-size: 1.4vw;
+}
+
+.img_display
+{
+    position: absolute;
+    left: 62%;
+}
+
+.new_product_img
+{
+    width: 22vw;
+    height: 19vw;
+    margin-top: 3vw;
+}

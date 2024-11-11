@@ -9,11 +9,12 @@
 
      .section1_h /* 오늘의 차 section 1*/
      {
-         padding-top: 5vw;
-         font-size: 23px;
+        padding-top: 5vw;
+        font-size: 23px;
+        font-weight: 650;
   
-         display: flex;
-         justify-content: center;
+        display: flex;
+        justify-content: center;
      }
 
      .center_box a
@@ -109,11 +110,12 @@
 
      .section1_h /* 오늘의 차 section 1*/
      {
-         padding-top: 5vw;
-         font-size: 27px;
+        padding-top: 5vw;
+        font-size: 27px;
+        font-weight: 650;
   
-         display: flex;
-         justify-content: center;
+        display: flex;
+        justify-content: center;
      }
 
      .center_box a
@@ -209,34 +211,35 @@
 
      .section1_h /* 오늘의 차 section 1*/
      {
-         padding-top: 5vw;
-         font-size: 27px;
+        padding-top: 5vw;
+        font-size: 27px;
+        font-weight: 650;
   
-         display: flex;
-         justify-content: center;
+        display: flex;
+        justify-content: center;
      }
 
-     .center_box a
-     {
-          font-size:  19px;
-          text-decoration: none;
+    .center_box a
+    {
+        font-size:  19px;
+        text-decoration: none;
   
-          position: relative;
-          padding: 1vw;
-     }
+        position: relative;
+        padding: 1vw;
+    }
 
-     .b_left_box a
-     {
-          font-size: 13px;
-          color:#a3a3a3
-     }
+    .b_left_box a
+    {
+        font-size: 13px;
+        color:#a3a3a3
+    }
 
      /* ---------------- 상품 박스 ----------------*/
-     .best_box
-     {
-          width: 140px;
-          height: 350px;
-     }
+    .best_box
+    {
+        width: 140px;
+        height: 350px;
+    }
 
    .best_box .link
    {
