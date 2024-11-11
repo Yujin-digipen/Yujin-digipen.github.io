@@ -98,11 +98,11 @@ footer
     align-items: center;
 }
 
-.youtube, .insta, .facebook, .blog
+.youtube img, .insta img, .facebook img, .blog img
 {
     width: 3vw;
     height: 3vw;
-    background-color: #FFF;
     border-radius: 99vw;
     margin: 0.3vw;
+    border: solid #fff;
 }
