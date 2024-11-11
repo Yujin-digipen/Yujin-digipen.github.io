@@ -23,7 +23,7 @@ video
 {
     width: 30vw;
     max-height: 100vh;
-    border-radius: 0vw;
+    border-radius: 0.5vw;
 }
 
 .video-header
