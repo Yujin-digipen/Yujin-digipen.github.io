@@ -50,6 +50,11 @@ nav a
     padding: 0 4vw;
 }
 
+nav a:hover
+{
+    color:#3e772f;
+}
+
 
 .clickable a 
 {
