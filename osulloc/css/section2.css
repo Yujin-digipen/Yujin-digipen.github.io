@@ -121,16 +121,15 @@
     .sec2_wrap
     {
         width: 75%;
-        margin: auto;
     }
 
     .section_name
     {
         font-size: 27px;
         margin-bottom: 1vw;
+        margin-top: 1vw;
         font-weight: bold;
     }
-
     .sec2
     {
         width:100%;

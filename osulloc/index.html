@@ -495,27 +495,6 @@
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
        
        <script>
-            var swiper = new Swiper(".mySwiper", 
-            {
-                spaceBetween: 0,
-                centeredSlides: true,
-                effect: "fade",
-                autoplay:
-                {
-                    delay: 5000,
-                    disableOnInteraction: false,
-                },
-                pagination:
-                {
-                    el: ".swiper-pagination",
-                    clickable: true,
-                },
-                navigation:
-                {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
-                },
-            });
 
             var swiper2 = new Swiper(".mySwiper2", 
             {
@@ -523,7 +502,7 @@
                 observer: true,
                 observeParents: true,
                 autoHeight : true,
-                spaceBetween: -30,
+                spaceBetween: 0,
                 pagination:
                 {
                     el: ".swiper-pagination",

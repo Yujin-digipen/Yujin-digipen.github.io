@@ -34,7 +34,7 @@
 
      .best_box
    {
-       width: 90px;
+       width: 130px;
        height: 250px;
    }
 
@@ -137,7 +137,7 @@
      .best_box
    {
        width: 120px;
-       height: 260px;
+       height: 270px;
    }
 
    .best_box .link
@@ -237,9 +237,9 @@
      /* ---------------- 상품 박스 ----------------*/
     .best_box
     {
-        width: 140px;
-        height: 350px;
-    }
+        width: 180px;
+        height: 400px;
+     }
 
    .best_box .link
    {
@@ -300,6 +300,11 @@
        border-radius: 3vw;
    }
 
+   }
+
+   .m_text_box
+   {
+        margin-top: 2vw;
    }
 
 
