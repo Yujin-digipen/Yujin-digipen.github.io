@@ -1,9 +1,9 @@
-@media (min-width: 219px) /*  가로가 219보다 큰 화면에 적용 */
+@media (min-width: 319px) /*  가로가 319보다 큰 화면에 적용 //휴대폰*/
 {
     #mv
     {
-        width: 100%;          /* ----- vw : 브라우저 넓이에 따라 width가 맞춰짐 ----- */
-        height: 600px; /* ----- vh : 브라우저 넓이에 따라 height가 맞춰짐 ----- */
+        width: 100%;
+        height: 600px;
         object-fit: fill;
         border-radius: 0 0 0 15vw;  /* ----- 좌측하단 모서리 둥글게 ----- */
     }
@@ -13,28 +13,111 @@
         position: absolute;
 
         top: 250px;
-        left: 25vw;
+        left: 58px;
 
         color: white;
-        font-size: 12vw;
+        font-size: 60px;
 
-        font-weight: 100;
+        font-weight: 200;
     }
 
     .video-ph
     {
         position: absolute;
 
-        top: 200px;
-        left: 43vw;
+        top: 220px;
+        left: 158px;
 
         color: white;
-        font-size: 5vw;
+        font-size: 22px;
 
         font-weight: 100;
     }
 
 }
+
+@media (min-width: 767px) /*  가로가 767보다 큰 화면에 적용 //타블렛 */
+{
+    #mv
+    {
+        width: 100%;
+        height: 650px;
+        object-fit: fill;
+        border-radius: 0 0 0 15vw;  /* ----- 좌측하단 모서리 둥글게 ----- */
+    }
+
+    .video-header
+    {
+        position: absolute;
+
+        top: 250px;
+        left: 150px;
+
+        color: white;
+        font-size: 100px;
+
+        font-weight: 200;
+    }
+
+    .video-ph
+    {
+        position: absolute;
+
+        top: 210px;
+        left: 320px;
+
+        color: white;
+        font-size: 35px;
+
+        font-weight: 100;
+    }
+
+}
+
+@media (min-width: 1200px) /*  가로가 1200보다 큰 화면에 적용 //컴터 */
+{
+    #mv
+    {
+        width: 100%;
+        height: 900px;
+        object-fit: fill;
+        border-radius: 0 0 0 15vw;  /* ----- 좌측하단 모서리 둥글게 ----- */
+    }
+
+    .video-header
+    {
+        position: absolute;
+
+        top: 330px;
+        left: 600px;
+
+        color: white;
+        font-size: 170px;
+
+        font-weight: 200;
+    }
+
+    .video-ph
+    {
+        position: absolute;
+
+        top: 280px;
+        left: 880px;
+
+        color: white;
+        font-size: 58px;
+
+        font-weight: 100;
+    }
+
+}
+
+
+
+
+
+
+
 
 video::-webkit-media-controls
 {

@@ -11,19 +11,114 @@ header .wrap
     justify-content: space-between;
 }
 
-.background_image  .swiper
-{    
-    position: relative;
+@media (min-width: 319px) /*  가로가 319보다 큰 화면에 적용 //휴대폰*/
+{
+    .logo
+    {
+        padding-top: 20px;
+    }
+
+    .logo img
+    {
+        width: 100px;
+    }
+
+    nav .nav-menu
+    {
+        visibility: hidden;
+    }
+
+    .right_box /* 검색 버튼 */
+    {
+        visibility: hidden;
+    }   
 }
 
-.logo
+@media (min-width: 767px) /*  가로가 767보다 큰 화면에 적용 //타블렛*/
 {
-    padding-top: 1%;
+    .logo
+    {
+        padding-top: 5px;
+        padding-left: 20px;
+
+        margin-right: 30px;
+    }
+
+    .logo img
+    {
+        width: 100px;
+    }
+
+    nav .nav-menu
+    {
+        visibility: inherit;
+
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+    
+        padding: 0 20px;
+    }
+
+    .right_box /* 검색 버튼 */
+    {
+        visibility: inherit;
+        position: absolute;
+
+        right: 30px;
+        top: 30px;
+
+        z-index: 1;
+    }
+
+    .right_box .search a span
+    {
+        font-size: 30px;
+    }
 }
 
-.logo img
+@media (min-width: 1200px) /*  가로가 1200보다 큰 화면에 적용 //컴터*/
 {
-    width: 7vw;
+    .logo
+    {
+        margin-top: -20px;
+
+        padding-left: 180px;
+        margin-right: 70px;
+    }
+
+    .logo img
+    {
+        width: 160px;
+    }
+
+    nav .nav-menu
+    {
+        visibility: inherit;
+
+        color: white;
+        text-decoration: none;
+        font-size: 28px;
+        
+        margin-top: -20px;
+        padding: 0 50px;
+    }
+
+    .right_box /* 검색 버튼 */
+    {
+        visibility: inherit;
+        position: absolute;
+
+        right: 200px;
+        top: 50px;
+
+        z-index: 1;
+    }
+
+    .right_box .search a span
+    {
+        font-size: 45px;
+    }
 }
 
 nav
@@ -41,14 +136,6 @@ nav
     z-index: 1;
 }
 
-nav a
-{
-    color: white;
-    text-decoration: none;
-    font-size: 1.5vw;
-
-    padding: 0 4vw;
-}
 
 nav a:hover
 {
@@ -67,18 +154,4 @@ nav a:hover
 }
 
 
-.right_box /* 검색 버튼 */
-{
-    position: absolute;
-
-    right: 7vw;
-    top: 3.5vw;
-
-    z-index: 1;
-}
-
-.right_box .search a span
-{
-    font-size: 3vw;
-}
 
