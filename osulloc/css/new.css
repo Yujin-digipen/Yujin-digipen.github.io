@@ -1,12 +1,15 @@
-.new_wrap
-{
-    width: 65%;
-    margin: auto;
-}
+
 
 
 @media (min-width: 319px) /*  가로가 319보다 큰 화면에 적용 //휴대폰*/
 {
+
+    .new_wrap
+    {
+        width: 85%;
+        margin: auto;
+    }
+
     .new_banner
     {
         padding-top: 20px;
