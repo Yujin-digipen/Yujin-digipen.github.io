@@ -1,304 +1,301 @@
    /* ----- section 1 ---- */
    
-   @media (min-width: 219px) /*  가로가 768보다 큰 화면에 적용 */
+   @media (min-width: 319px) /*  가로가 319보다 큰 화면에 적용 */
    {
-     .sec1
-     {
-         height: 40vh;
-     }
+        .sec1
+        {
+        height: 400px;
+        }
 
-     .section1_h /* 오늘의 차 section 1*/
-     {
-        padding-top: 5vw;
-        font-size: 23px;
+        .section1_h /* 오늘의 차 section 1*/
+        {
+        padding-top: 25px;
+        font-size: 27px;
         font-weight: 650;
-  
+    
         display: flex;
         justify-content: center;
-     }
+        }
 
-     .center_box a
-     {
-          font-size:  13px;
-          text-decoration: none;
-  
-          position: relative;
-          padding: 1vw;
-     }
+        .center_box a
+        {
+        font-size:  16px;
+        text-decoration: none;
+    
+        position: relative;
+        }
 
-     .b_left_box a
-     {
-          font-size: 7px;
-          color:#a3a3a3
-     }
+        .b_left_box a
+        {
+            font-size: 7px;
+            color:#a3a3a3
+        }
 
-     .best_box
-   {
-       width: 130px;
-       height: 250px;
-   }
-
-   .best_box .link
-   {
-        display: flex;
-        justify-content: center;
-        width: 90px;
-        height: 120px;
-   }
-
-   .mar_name
-   {
-       font-weight: bold;
-       font-size: 9px;
-   }
-
-   .price
-   {
-       font-size: 7.5px;
-       text-decoration: line-through;
-       color:#a3a3a3
-   }
-
-   .discounted
-   {
-       font-weight: bold;
-       font-size: 9.5px;
+        .best_box
+    {
+        width: 130px;
+        height: 250px;
     }
 
-   .discount_rate
-   {
-       font-weight: bold;
-       color:#3e772f;
-       font-size: 9px;
-       margin-left: 4px;
-   }
+    .best_box .link
+    {
+            display: flex;
+            justify-content: center;
+            width: 90px;
+            height: 120px;
+    }
 
-   .final_price
-   {
-        display: flex;
-   }
+    .mar_name
+    {
+        font-weight: bold;
+        font-size: 9px;
+    }
 
-   /*---- 신제품 버튼 ----*/
-   .bottom_box
-   {
-        display: flex;
-        justify-content: end;
-       margin-top: 1vw;
-   }
+    .price
+    {
+        font-size: 7.5px;
+        text-decoration: line-through;
+        color:#a3a3a3
+    }
 
-   .new
-   {
-       font-size: 9px;
-       font-weight: 600;
-       color: white;
-       background: #ffa600;
+    .discounted
+    {
+        font-weight: bold;
+        font-size: 9.5px;
+        }
 
-       padding: 3px 12px;
-       border-radius: 3vw;
-   }
+    .discount_rate
+    {
+        font-weight: bold;
+        color:#3e772f;
+        font-size: 9px;
+        margin-left: 4px;
+    }
 
+    .final_price
+    {
+            display: flex;
+    }
+
+    /*---- 신제품 버튼 ----*/
+    .bottom_box
+    {
+            display: flex;
+            justify-content: end;
+        margin-top: 10px;
+    }
+
+    .new
+    {
+        font-size: 9px;
+        font-weight: 600;
+        color: white;
+        background: #ffa600;
+
+        padding: 3px 12px;
+        border-radius: 30px;
+    }
    }
 
 
 
    @media (min-width: 768px) /*  가로가 768보다 큰 화면에 적용 */
    {
-     .sec1
-     {
-         height: 50vw;
-     }
+        .sec1
+        {
+            height: 500px;
+        }
 
-     .section1_h /* 오늘의 차 section 1*/
-     {
-        padding-top: 5vw;
-        font-size: 27px;
-        font-weight: 650;
-  
-        display: flex;
-        justify-content: center;
-     }
+        .section1_h /* 오늘의 차 section 1*/
+        {
+            padding-top: 5vw;
+            font-size: 27px;
+            font-weight: 650;
 
-     .center_box a
-     {
-          font-size:  19px;
-          text-decoration: none;
-  
-          position: relative;
-          padding: 1vw;
-     }
+            display: flex;
+            justify-content: center;
+        }
 
-     .b_left_box a
-     {
-          font-size: 13px;
-          color:#a3a3a3
-     }
+        .center_box a
+        {
+            font-size:  19px;
+            text-decoration: none;
 
-     /* ---------------- 상품 박스 ----------------*/
-     .best_box
-   {
-       width: 120px;
-       height: 270px;
-   }
+            position: relative;
+            padding: 10px;
+        }
 
-   .best_box .link
-   {
-        display: flex;
-        justify-content: center;
-        width: 130px;
-        height: 150px;
-   }
+        .b_left_box a
+        {
+            font-size: 13px;
+            color:#a3a3a3
+        }
 
-   .mar_name
-   {
-       font-weight: bold;
-       font-size: 11px;
-   }
+        /* ---------------- 상품 박스 ----------------*/
+        .best_box
+        {
+            width: 120px;
+            height: 270px;
+        }
 
-   .price
-   {
-       font-size: 7.5px;
-       text-decoration: line-through;
-       color:#a3a3a3
-   }
+        .best_box .link
+        {
+            display: flex;
+            justify-content: center;
+            width: 130px;
+            height: 150px;
+        }
 
-   .discounted
-   {
-       font-weight: bold;
-       font-size: 10.5px; 
-    }
+        .mar_name
+        {
+            font-weight: bold;
+            font-size: 11px;
+        }
 
-   .discount_rate
-   {
-       font-weight: bold;
-       color:#3e772f;
-       font-size: 10px;
-       margin-left: 4px;
-   }
+        .price
+        {
+            font-size: 7.5px;
+            text-decoration: line-through;
+            color:#a3a3a3
+        }
 
-   .final_price
-   {
-        display: flex;
-   }
+        .discounted
+        {
+            font-weight: bold;
+            font-size: 10.5px; 
+        }
 
-   /*---- 신제품 버튼 ----*/
-   .bottom_box
-   {
-        display: flex;
-        justify-content: end;
-       margin-top: 1vw;
-   }
+        .discount_rate
+        {
+            font-weight: bold;
+            color:#3e772f;
+            font-size: 10px;
+            margin-left: 4px;
+        }
 
-   .new
-   {
-       font-size: 9px;
-       font-weight: 600;
-       color: white;
-       background: #ffa600;
+        .final_price
+        {
+            display: flex;
+        }
 
-       padding: 3px 14px;
-       border-radius: 3vw;
-   }
-  
+        /*---- 신제품 버튼 ----*/
+        .bottom_box
+        {
+                display: flex;
+                justify-content: end;
+            margin-top: 10px;
+        }
+
+        .new
+        {
+            font-size: 9px;
+            font-weight: 600;
+            color: white;
+            background: #ffa600;
+
+            padding: 3px 14px;
+            border-radius: 30px;
+        }
    }
 
 
    @media (min-width: 1200px) /*  가로가 768보다 큰 화면에 적용 */
    {
-     .sec1
-     {
-         height: 45vw;
-     }
+        .sec1
+        {
+            height: 800px;
+        }
 
-     .section1_h /* 오늘의 차 section 1*/
-     {
-        padding-top: 5vw;
-        font-size: 27px;
-        font-weight: 650;
+        .section1_h /* 오늘의 차 section 1*/
+        {
+            padding-top: 5vw;
+            font-size: 27px;
+            font-weight: 650;
   
-        display: flex;
-        justify-content: center;
-     }
+            display: flex;
+            justify-content: center;
+        }
 
-    .center_box a
-    {
-        font-size:  19px;
-        text-decoration: none;
+        .center_box a
+        {
+            font-size:  23px;
+            text-decoration: none;
   
-        position: relative;
-        padding: 1vw;
-    }
+            position: relative;
+            padding: 10px;
+        }
 
-    .b_left_box a
-    {
-        font-size: 13px;
-        color:#a3a3a3
-    }
+        .b_left_box a
+        {
+            font-size: 13px;
+            color:#a3a3a3
+        }
 
-     /* ---------------- 상품 박스 ----------------*/
-    .best_box
-    {
-        width: 180px;
-        height: 400px;
-     }
+        /* ---------------- 상품 박스 ----------------*/
+        .best_box
+        {
+            width: 180px;
+            height: 400px;
+        }
 
-   .best_box .link
-   {
-        display: flex;
-        justify-content: center;
-        width: 140px;
-        height: 170px;
-   }
+        .best_box .link
+        {
+            display: flex;
+            justify-content: center;
+            width: 140px;
+            height: 170px;
+        }
 
-   .mar_name
-   {
-       font-weight: bold;
-       font-size: 15px;
-   }
+        .mar_name
+        {
+            font-weight: bold;
+            font-size: 17px;
+        }
 
-   .price
-   {
-       font-size: 11.5px;
-       text-decoration: line-through;
-       color:#a3a3a3
-   }
+        .price
+        {
+            font-size: 12.5px;
+            text-decoration: line-through;
+            color:#a3a3a3
+        }
 
-   .discounted
-   {
-       font-weight: bold;
-       font-size: 13.5px; 
-    }
+        .discounted
+        {
+            font-weight: bold;
+            font-size: 14.5px; 
+        }
 
-   .discount_rate
-   {
-       font-weight: bold;
-       color:#3e772f;
-       font-size: 13px;
-       margin-left: 5px;
-   }
+        .discount_rate
+        {
+            font-weight: bold;
+            color:#3e772f;
+            font-size: 14px;
+            margin-left: 5px;
+        }
 
-   .final_price
-   {
-        display: flex;
-   }
+        .final_price
+        {
+            display: flex;
+        }
 
-   /*---- 신제품 버튼 ----*/
-   .bottom_box
-   {
-        display: flex;
-        justify-content: end;
-       margin-top: 1vw;
-   }
+        /*---- 신제품 버튼 ----*/
+        .bottom_box
+        {
+            display: flex;
+            justify-content: end;
+            margin-top: 10px;
+        }
 
-   .new
-   {
-       font-size: 11px;
-       font-weight: 600;
-       color: white;
-       background: #ffa600;
+        .new
+        {
+            font-size: 11px;
+            font-weight: 600;
+            color: white;
+            background: #ffa600;
 
-       padding: 3px 14px;
-       border-radius: 3vw;
-   }
+            padding: 3px 14px;
+            border-radius: 30px;
+        }
 
    }
 
@@ -306,8 +303,6 @@
    {
         margin-top: 2vw;
    }
-
-
 
    .today_wrap
    {
@@ -333,8 +328,6 @@
 
         margin-left: 9vw;
    }
-
-
 
    .center_box a:nth-child(1)
    {
