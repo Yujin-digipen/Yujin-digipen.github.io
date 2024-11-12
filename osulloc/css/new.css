@@ -82,7 +82,7 @@
     .img_display
     {
         position: absolute;
-        left: 480px;
+        left: 65%;
     }                                   
 
     .new_product_img
@@ -108,7 +108,7 @@
     .justify_box
     {
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
 
         height: 250px;
     }
