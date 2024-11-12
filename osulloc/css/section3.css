@@ -5,6 +5,9 @@
     {
         width: 85%;    
         margin:auto;
+        
+        display: grid;
+        justify-content: center;
     }
 
     .ct3
