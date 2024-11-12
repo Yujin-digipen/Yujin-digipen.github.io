@@ -1,11 +1,63 @@
-.sec3-4
-{
-    width: 75%;
-    display: flex;
-    justify-content: space-between;
 
-    margin:auto;
+@media (min-width: 319px) /*  가로가 319보다 큰 화면에 적용 //휴대폰*/
+{
+    .sec3-4
+    {
+        width: 85%;    
+        margin:auto;
+    }
+
+    .ct3
+    {
+        width: 300px;
+        height: 160px;
+    }
+
+    .intro_text_box
+    {
+        padding-left: 30px;
+        padding-top: 56px;
+
+        color: white;
+        font-weight: 100;
+    }
+    
+    .intro_text_box h2
+    {
+        color: white;
+        font-weight: 100;
+        font-size: 15px;
+    }
+    
+    .intro_text_box h1
+    {
+        color: white;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
 }
+
+@media (min-width: 768px) /*  가로가 319보다 큰 화면에 적용 //휴대폰*/
+{
+    .sec3-4
+    {
+        width: 75%;
+        display: flex;
+        justify-content: space-between;
+    
+        margin:auto;
+    }
+
+    .ct3
+    {
+        width: 35vw;
+        height: 18vw;
+    }
+
+
+}
+
 
 
 /* ---- section 3 ---- */
@@ -19,29 +71,8 @@
 {
     background: url(../img/main_banner/introduce_banner.jpg) no-repeat;
     background-size: cover;
-    width: 35vw;
-    height: 18vw;
+
 
     border-radius:10px;
 }
 
-.intro_text_box
-{
-    padding-left: 3vw;
-    padding-top:6vw;
-    width: 30vw;
-}
-
-.intro_text_box h2
-{
-    color: white;
-    font-weight: 100;
-    font-size: 1.4vw;
-}
-
-.intro_text_box h1
-{
-    color: white;
-    font-weight: 400;
-    font-size: 2vw;
-}

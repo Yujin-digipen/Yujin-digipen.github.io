@@ -24,9 +24,10 @@
         font-weight: 650;
     }
 
-    .text_box, .new_product_img
+    .text_box, .new_product_img, .img_display
     {
         visibility: hidden;
+        width:0px;
     }
     
     .justify_box
@@ -57,6 +58,7 @@
     .text_box
     {
         visibility: visible;
+        width:300px;
         margin-left: 20px;
     }
 
@@ -80,16 +82,16 @@
     .img_display
     {
         position: absolute;
-        left: 540px;
+        left: 480px;
     }                                   
 
     .new_product_img
     {
         visibility: visible;
 
-        width: 180px;
-        height: 140px;
-        margin-top: 70px;
+        width: 230px;
+        height: 190px;
+        margin-top: 30px;
     }
 
     .new_count
@@ -133,6 +135,8 @@
     .text_box
     {
         visibility: visible;
+        width:400px;
+
         margin-left: 30px;
     }
 
@@ -155,7 +159,7 @@
     .img_display
     {
         position: absolute;
-        left: 1100px;
+        left: 67%;
     }                                   
 
     .new_product_img
@@ -181,7 +185,7 @@
     .justify_box
     {
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
 
         height: 250px;
     }
