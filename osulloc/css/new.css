@@ -4,75 +4,183 @@
     margin: auto;
 }
 
-.new_banner
+
+@media (min-width: 319px) /*  가로가 319보다 큰 화면에 적용 //휴대폰*/
 {
-    padding-top: 5vw;
-    margin-bottom: 5vw;
+    .new_banner
+    {
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .new_name
+    {
+        text-align: center;
+        font-size: 27px;
+        padding-bottom: 15px;
+        font-weight: 650;
+    }
+
+    .text_box, .new_product_img
+    {
+        visibility: hidden;
+    }
+    
+    .justify_box
+    {
+        display: flex;
+        justify-content: flex-start;
+
+        height: 150px;
+    }
+
 }
 
-.new_name
+@media (min-width: 767px) /*  가로가 767보다 큰 화면에 적용 //타블렛 */
 {
-    text-align: center;
-    font-size: 27px;
-    padding-bottom: 3vw;
-    font-weight: 650;
+    .new_banner
+    {
+        padding-top: 40px;
+    }
+
+    .new_name
+    {
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 30px;
+        font-weight: 650;
+    }
+
+    .text_box
+    {
+        visibility: visible;
+        margin-left: 20px;
+    }
+
+    .new_concept
+    {
+        font-weight: 500;
+        
+        font-size: 18px;
+        margin: 14px 0;
+    }   
+
+    .text_box p
+    {
+        font-weight: 500;
+        color:rgb(85, 82, 82);
+        margin-bottom: 8px;
+
+        font-size: 8.9px;
+    }
+
+    .img_display
+    {
+        position: absolute;
+        left: 540px;
+    }                                   
+
+    .new_product_img
+    {
+        visibility: visible;
+
+        width: 180px;
+        height: 140px;
+        margin-top: 70px;
+    }
+
+    .new_count
+    {
+        font-size: 13px;
+        padding-top: 5px;
+    }
+
+    .new_price
+    {
+        font-size: 18px;
+    }
+
+    .justify_box
+    {
+        display: flex;
+        justify-content: flex-start;
+
+        height: 250px;
+    }
 }
 
-.justify_box
+@media (min-width: 1200px) /*  가로가 1200보다 큰 화면에 적용 //컴터 */
 {
-    display: flex;
-    justify-content: flex-start;
-}
+    .new_banner
+    {
+        padding-top: 50px;
+        margin-bottom: 50px;
 
-.text_box
-{
-    margin-left: 3vw;
-}
+        height: 450px;
+    }
 
-.price_box
-{
-    display: flex;
-    justify-content: flex-start;
-}
+    .new_name
+    {
+        text-align: center;
+        font-size: 27px;
+        padding-bottom: 30px;
+        font-weight: 650;
+    }
 
+    .text_box
+    {
+        visibility: visible;
+        margin-left: 30px;
+    }
 
-.new_concept
-{
-    font-weight: 500;
-    font-size: 1.56vw;
-    margin: 0.7vw 0vw;
-}
+    .new_concept
+    {
+        font-weight: 500;
+        font-size: 24px;
+        margin: 14px 0;
+    }   
 
-.text_box p
-{
-    font-weight: 500;
-    color:rgb(85, 82, 82);
-    margin-bottom: 0.8vw;
+    .text_box p
+    {
+        font-weight: 500;
+        color:rgb(85, 82, 82);
+        margin-bottom: 8px;
 
-    font-size: 0.9vw;
-}
+        font-size: 14px;
+    }
 
-.new_count
-{
-    font-size: 1.1vw;
-    padding-top: 0.3vw;
-    margin-right: 1vw;
-}
+    .img_display
+    {
+        position: absolute;
+        left: 1100px;
+    }                                   
 
-.new_price
-{
-    font-size: 1.4vw;
-}
+    .new_product_img
+    {
+        visibility: visible;
 
-.img_display
-{
-    position: absolute;
-    left: 62%;
-}
+        width: 380px;
+        height: 320px;
+        margin-top: 120px;
+    }
 
-.new_product_img
-{
-    width: 22vw;
-    height: 19vw;
-    margin-top: 3vw;
+    .new_count
+    {
+        font-size: 20px;
+        padding-top: 5px;
+    }
+
+    .new_price
+    {
+        font-size: 28px;
+    }
+
+    .justify_box
+    {
+        display: flex;
+        justify-content: flex-start;
+
+        height: 250px;
+    }
+
 }

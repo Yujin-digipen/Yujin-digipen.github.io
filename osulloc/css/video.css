@@ -34,6 +34,11 @@
         font-weight: 100;
     }
 
+    #new_mv
+    {
+        height: 100%;
+        border-radius: 10px;
+    }
 }
 
 @media (min-width: 767px) /*  가로가 767보다 큰 화면에 적용 //타블렛 */
@@ -72,6 +77,12 @@
         font-weight: 100;
     }
 
+    #new_mv
+    {
+        height: 70%;
+        border-radius: 10px;
+    }
+
 }
 
 @media (min-width: 1200px) /*  가로가 1200보다 큰 화면에 적용 //컴터 */
@@ -108,6 +119,12 @@
         font-size: 58px;
 
         font-weight: 100;
+    }
+
+    #new_mv
+    {
+        height: 150%;
+        border-radius: 10px;
     }
 
 }
@@ -169,10 +186,11 @@ video::-webkit-media-controls
 }
 */
 
-#new_mv
+/*#new_mv
 {
     width: 30vw;
     max-height: 100vh;
     border-radius: 0.5vw;
 }
+    */
 
