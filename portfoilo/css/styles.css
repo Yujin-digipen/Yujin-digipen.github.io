@@ -3135,7 +3135,7 @@ button.btn--pill {
     display: block;
     height: 2px;
     width: 100%;
-    background-color: var(--color-1);
+    background-color: #ffffff;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -3437,7 +3437,7 @@ button.btn--pill {
 }
 
 .s-header__nav .current a {
-    color: var(--color-notice);
+    color: #97c8e9;
 }
 
 /* ------------------------------------------------------------------- 
@@ -4651,7 +4651,7 @@ button.btn--pill {
  *
  * ------------------------------------------------------------------- */
 .s-contact {
-    background-color: var(--color-1-lighter);
+    background-color: #97c8e9;
 
 
     padding-top: calc(6 * var(--space));
