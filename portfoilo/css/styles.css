@@ -4006,10 +4006,9 @@ button.btn--pill {
     --color-border: var(--color-gray-16);
 
 
-    background-color: skyblue;
+    background-color: rgb(255, 255, 255);
 
-    padding-top: 90px;
-    padding-bottom: var(--vspace-4);
+    padding-top: 40px;
     color: rgba(14, 13, 13, 0.4);
 }
 
